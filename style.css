@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    padding: 25px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff6347; /* Tomato color */
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px; /* To ensure content is not hidden behind the fixed nav */
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#about {
+    background-color: #e2e2e2;
+}
+
+#menu{
+    background-color: #f4f4f4;
+}
+
+#services {
+    background-color: #cfcfcf;
+}
+
+#delivery{
+    background-color: #f4f4f4;
+}
+
+#contact {
+    background-color: #bcbcbc;
+}
